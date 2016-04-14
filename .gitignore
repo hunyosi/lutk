@@ -30,4 +30,6 @@
 # work
 boost
 start.sh
+*.stackdump
+bin
 

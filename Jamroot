@@ -1,0 +1,8 @@
+import testing ;
+import os ;
+
+local BOOST_ROOT = [ os.environ BOOST_ROOT ] ;
+use-project /boost : $(BOOST_ROOT) ;
+
+run test.cpp /boost/test ;
+
